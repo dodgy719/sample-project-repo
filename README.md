@@ -46,15 +46,10 @@ The goal here is that you're working on your own branch. We recommend naming eac
 
 The workflow should look like the following:
 
-1. Pull the most recent updates from the remote `main` branch: `git pull origin main`
-2. Move to your working branch locally: `git checkout <name of member branch>`
-3. Merge the main branch onto your working branch: `git merge main`
-4. Do the work! Make changes and edits to your project content!
-5. Add and commit changes to your branch: `git add <file name>` then `git commit -m 'Meaningful message describing changes to be committed'`
-6. Push changes to your remote working branch: `git push origin <name of member branch>`
-7. Start a Pull Request on GitHub to sync changes on the working branch with the remote `main` branch
-8. Repeat as necessary!
+1. Move to your working branch locally: `git checkout <name of member branch>`
+2. Do the work! Make changes and edits to your project content!
+3. Add and commit changes to your branch: `git add <file name>` then `git commit -m 'Meaningful message describing changes to be committed'`
+4. Push changes to your remote working branch: `git push origin <name of member branch>`
+5. Repeat as necessary!
 
-Steps 1, 3, 6 and 7 are represented on the arrows below:
 
-![process diagram](images/git-process-diagram.png)
